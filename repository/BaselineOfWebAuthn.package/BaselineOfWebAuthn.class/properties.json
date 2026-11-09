@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfWebAuthn",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfWebAuthn",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

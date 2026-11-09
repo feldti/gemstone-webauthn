@@ -1,0 +1,1 @@
+(name 'BaselineOfWebAuthn-mf.1' message 'Baseline for WebAuthn (requires Cbor-Core from github://feldti/gemstone-cbor)' id 'e00ccd8b-e3d7-4bfe-8945-3014d54593bd' date '11/09/2026' time '08:34:14' author 'DataCurator' ancestors () stepChildren ())
