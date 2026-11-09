@@ -17,7 +17,7 @@ Getestet mit GemStone/S 64 3.7.6 (GLASS/PUM-Image).
 
 ## Inhalt
 
-1. [Installation](#installation)
+1. [Installation](#installation) (inkl. [Abhängigkeiten](#abhängigkeiten))
 2. [Was sind Passkeys? (Kurzfassung)](#was-sind-passkeys-kurzfassung)
 3. [Ablauf: Registrierung eines Passkeys](#ablauf-registrierung-eines-passkeys)
 4. [Ablauf: Anmeldung über den Login-Dialog](#ablauf-anmeldung-über-den-login-dialog)
@@ -75,6 +75,34 @@ Die Authenticatoren liefern ihre Daten nicht als JSON, sondern binär in **CBOR*
 Der COSE-Schlüssel steht in `authData` ohne Längenangabe mitten im Byte-Strom; danach können noch Extensions folgen. Deshalb wird `CborDecoder on:` auf einem Stream benutzt: Der Decoder liest genau ein Element, und der Rest des Streams zeigt, wo der Schlüssel endet. Die rohen Bytes des Schlüssels werden unverändert als `publicKeyBytes` gespeichert.
 
 Einen eigenen CBOR-Encoder braucht das Paket nicht; es erzeugt selbst kein CBOR.
+
+### Abhängigkeiten
+
+Das Paket `WebAuthn` benutzt zur Laufzeit nur Klassen und Methoden aus dem **GemStone-Kernel** sowie `Cbor-Core`. Methoden aus GLASS, Seaside, Zinc, NeoJSON oder anderen Paketen kommen nicht vor; z.B. wird statt `Object>>asJson` (Seaside) das Kernel-`printJsonOn:` benutzt. Geprüft wurde gegen die Kernel-Quellen von GemStone/S 64 3.7.6 (`$GEMSTONE/upgrade/bootstrap/Filein*.gs`).
+
+| Zweck | Benutzt | Herkunft (Kernel) |
+|---|---|---|
+| Signaturprüfung | `ByteArray>>verifyWithEcPublicKey:signature:`, `verifyWithSha256AndRsaPublicKey:signature:`, `verifyWithSha256AndRsaPssPublicKey:signature:` | `Filein2A.gs` |
+| Öffentlicher Schlüssel | `GsTlsPublicKey class>>newFromPemString:`, `CryptoError` | `Filein3B.gs` |
+| Hash | `ByteArray>>sha256SumBytes` | `Filein2A.gs` |
+| Zufall (Challenge, User Handle) | `ByteArray class>>withRandomBytes:` | `Filein2A.gs` |
+| Base64 / Base64URL | `asBase64String`, `asBase64UrlString`, `ByteArray class>>fromBase64UrlString:` | `Filein2A.gs` |
+| UTF-8 | `ByteArray>>decodeFromUTF8ToString`, `String>>encodeAsUTF8`, `asByteArray` | `Filein1A.gs`, `Filein2A.gs`, `Filein3B.gs` |
+| JSON lesen | `JsonParser class>>parse:` | `Filein3B.gs` |
+| JSON schreiben | `printJsonOn:` (Dictionary, String, Collection, Integer, Boolean) | `Filein1A.gs` |
+| Ablage der Credentials | `RcKeyValueDictionary` | `Filein1C.gs` |
+| Zeit | `DateAndTime now`, `Duration>>asSeconds` | `Filein1C.gs` |
+| Streams, Collections, Exceptions | `ReadStream`, `WriteStream`, `upToEnd`, `messageText`, `return:` u.a. | `Filein1A.gs`, `Filein2A.gs`, `Filein2Streams.gs` |
+| Tests | `TestCase` (SUnit) | `Filein2CInit.gs` |
+
+Außerhalb des Kernels:
+
+| Paket | Benutzt | Wofür |
+|---|---|---|
+| `Cbor-Core` | `Cbor decode:`, `CborDecoder on:` + `decode`, `CborError` | Dekodieren von `attestationObject`, COSE-Schlüssel und Extensions |
+| Metacello (GLASS/GsDevKit) | `BaselineOf` | nur `BaselineOfWebAuthn`, also nur zum Laden, nicht zur Laufzeit |
+
+Hinweis zu `ReadStream`: Der Kernel kennt eine Legacy- und eine Portable-Variante mit unterschiedlicher Zählweise von `position`. Der Code verlässt sich deshalb nicht auf `position`, sondern berechnet verbrauchte Bytes über den Rest (`upToEnd`) und läuft mit beiden Varianten.
 
 ---
 
