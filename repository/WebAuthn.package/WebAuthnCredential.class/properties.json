@@ -1,0 +1,26 @@
+{
+	"category" : "WebAuthn-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"credentialId",
+		"userHandle",
+		"publicKeyBytes",
+		"signCount",
+		"transports",
+		"aaguid",
+		"backupEligible",
+		"backupState",
+		"uvInitialized",
+		"attestationFormat",
+		"createdAt",
+		"lastUsedAt",
+		"label" ],
+	"name" : "WebAuthnCredential",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

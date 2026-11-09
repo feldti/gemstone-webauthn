@@ -1,0 +1,26 @@
+{
+	"category" : "WebAuthn-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rpId",
+		"rpName",
+		"origins",
+		"credentialStore",
+		"timeoutMs",
+		"challengeSize",
+		"userVerification",
+		"residentKey",
+		"attestation",
+		"supportedAlgorithms",
+		"requireUserVerification",
+		"checkSignCount",
+		"allowCrossOrigin" ],
+	"name" : "WebAuthnRelyingParty",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

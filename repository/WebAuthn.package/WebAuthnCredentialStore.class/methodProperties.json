@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"new" : "DataCurator 11/09/2026 08:29" },
+	"instance" : {
+		"add:" : "DataCurator 11/09/2026 08:29",
+		"allCredentials" : "DataCurator 11/09/2026 08:29",
+		"at:ifAbsent:" : "DataCurator 11/09/2026 08:29",
+		"credentialsForUserHandle:" : "DataCurator 11/09/2026 08:29",
+		"includesCredentialId:" : "DataCurator 11/09/2026 08:29",
+		"initialize" : "DataCurator 11/09/2026 08:29",
+		"keyFor:" : "DataCurator 11/09/2026 08:29",
+		"remove:" : "DataCurator 11/09/2026 08:29",
+		"size" : "DataCurator 11/09/2026 08:29" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "WebAuthn-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WebAuthnError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

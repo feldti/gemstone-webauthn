@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"fromBytes:" : "DataCurator 11/09/2026 08:29" },
+	"instance" : {
+		"aaguid" : "DataCurator 11/09/2026 08:29",
+		"bytes" : "DataCurator 11/09/2026 08:29",
+		"credentialId" : "DataCurator 11/09/2026 08:29",
+		"credentialPublicKey" : "DataCurator 11/09/2026 08:29",
+		"extensions" : "DataCurator 11/09/2026 08:29",
+		"flag:" : "DataCurator 11/09/2026 08:29",
+		"flags" : "DataCurator 11/09/2026 08:29",
+		"isAttestedCredentialDataIncluded" : "DataCurator 11/09/2026 08:29",
+		"isBackedUp" : "DataCurator 11/09/2026 08:29",
+		"isBackupEligible" : "DataCurator 11/09/2026 08:29",
+		"isExtensionDataIncluded" : "DataCurator 11/09/2026 08:29",
+		"isUserPresent" : "DataCurator 11/09/2026 08:29",
+		"isUserVerified" : "DataCurator 11/09/2026 08:29",
+		"rpIdHash" : "DataCurator 11/09/2026 08:29",
+		"setBytes:" : "DataCurator 11/09/2026 08:29",
+		"signCount" : "DataCurator 11/09/2026 08:29",
+		"uint32At:" : "DataCurator 11/09/2026 08:29" } }

@@ -1,0 +1,3 @@
+accessing
+uvInitialized
+	^uvInitialized == true

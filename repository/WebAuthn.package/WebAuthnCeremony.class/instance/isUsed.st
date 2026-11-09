@@ -1,0 +1,3 @@
+testing
+isUsed
+	^used == true

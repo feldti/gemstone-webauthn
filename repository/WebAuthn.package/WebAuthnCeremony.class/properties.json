@@ -1,0 +1,21 @@
+{
+	"category" : "WebAuthn-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"kind",
+		"challenge",
+		"options",
+		"userHandle",
+		"allowCredentialIds",
+		"createdAt",
+		"timeoutMs",
+		"used" ],
+	"name" : "WebAuthnCeremony",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

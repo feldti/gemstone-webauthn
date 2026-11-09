@@ -1,0 +1,3 @@
+accessing
+backupState
+	^backupState == true

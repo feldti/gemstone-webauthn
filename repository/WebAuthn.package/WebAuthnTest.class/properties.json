@@ -1,0 +1,14 @@
+{
+	"category" : "WebAuthn-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rp" ],
+	"name" : "WebAuthnTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

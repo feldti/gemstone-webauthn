@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"fromBytes:" : "DataCurator 11/09/2026 08:29" },
+	"instance" : {
+		"at:" : "DataCurator 11/09/2026 08:29",
+		"bytes" : "DataCurator 11/09/2026 08:29",
+		"challenge" : "DataCurator 11/09/2026 08:29",
+		"clientDataHash" : "DataCurator 11/09/2026 08:29",
+		"isCrossOrigin" : "DataCurator 11/09/2026 08:29",
+		"json" : "DataCurator 11/09/2026 08:29",
+		"origin" : "DataCurator 11/09/2026 08:29",
+		"setBytes:" : "DataCurator 11/09/2026 08:29",
+		"topOrigin" : "DataCurator 11/09/2026 08:29",
+		"type" : "DataCurator 11/09/2026 08:29" } }

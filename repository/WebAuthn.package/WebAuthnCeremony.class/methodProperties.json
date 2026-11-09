@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"kind:" : "DataCurator 11/09/2026 08:29" },
+	"instance" : {
+		"allowCredentialIds" : "DataCurator 11/09/2026 08:29",
+		"allowCredentialIds:" : "DataCurator 11/09/2026 08:29",
+		"challenge" : "DataCurator 11/09/2026 08:29",
+		"challenge:" : "DataCurator 11/09/2026 08:29",
+		"consumeFor:" : "DataCurator 11/09/2026 08:29",
+		"createdAt" : "DataCurator 11/09/2026 08:29",
+		"isExpired" : "DataCurator 11/09/2026 08:29",
+		"isUsed" : "DataCurator 11/09/2026 08:29",
+		"kind" : "DataCurator 11/09/2026 08:29",
+		"options" : "DataCurator 11/09/2026 08:29",
+		"options:" : "DataCurator 11/09/2026 08:29",
+		"optionsJson" : "DataCurator 11/09/2026 08:29",
+		"setKind:" : "DataCurator 11/09/2026 08:29",
+		"timeoutMs" : "DataCurator 11/09/2026 08:29",
+		"timeoutMs:" : "DataCurator 11/09/2026 08:29",
+		"userHandle" : "DataCurator 11/09/2026 08:29",
+		"userHandle:" : "DataCurator 11/09/2026 08:29" } }

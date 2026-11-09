@@ -1,0 +1,5 @@
+vectors
+vectorEs256RegPacked
+	"Generated with Python cryptography: rpId example.com, origin https://example.com."
+
+	^'{"id":"riAKfJn5sCJwYLvXeD12Bw","rawId":"riAKfJn5sCJwYLvXeD12Bw","type":"public-key","authenticatorAttachment":"platform","clientExtensionResults":{},"response":{"clientDataJSON":"eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiQUFFQ0F3UUZCZ2NJQ1FvTERBME9EeEFSRWhNVUZSWVhHQmthR3h3ZEhoOCIsIm9yaWdpbiI6Imh0dHBzOi8vZXhhbXBsZS5jb20iLCJjcm9zc09yaWdpbiI6ZmFsc2V9","attestationObject":"o2NmbXRmcGFja2VkZ2F0dFN0bXSiY2FsZyZjc2lnWEcwRQIgOS_y_xYUGSE6R5k4ulFIFG06-e50dS-42WSQE6UtTzcCIQDvblnA82Ke3R7E-HKQg2-7Av0DNxHrk56XSIfCqLe4UWhhdXRoRGF0YViUo3mm9u6vuaVeN4wRgDTidR5oL6ufLTCrE9ISVYbOGUdNAAAAAAAAAAAAAAAAAAAAAAAAAAAAEK4gCnyZ-bAicGC713g9dgelAQIDJiABIVgg7jYp2JffkNZrVqlQ8q0TIvMSUHciYn990ag6x0V6j_oiWCDWvR0DxJuY9jh2n1ejUyLy8NXMtbkpezSacbAco-ne1g","transports":["internal","hybrid"]}}'

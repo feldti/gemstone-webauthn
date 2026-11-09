@@ -1,0 +1,21 @@
+{
+	"category" : "WebAuthn-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bytes",
+		"rpIdHash",
+		"flags",
+		"signCount",
+		"aaguid",
+		"credentialId",
+		"credentialPublicKey",
+		"extensions" ],
+	"name" : "WebAuthnAuthenticatorData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

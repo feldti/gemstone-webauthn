@@ -1,0 +1,5 @@
+vectors
+vectorEddsaRegPacked
+	"Generated with Python cryptography: rpId example.com, origin https://example.com."
+
+	^'{"id":"ihkhGPJ5v76K3sZFtcSO8A","rawId":"ihkhGPJ5v76K3sZFtcSO8A","type":"public-key","authenticatorAttachment":"platform","clientExtensionResults":{},"response":{"clientDataJSON":"eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiQUFFQ0F3UUZCZ2NJQ1FvTERBME9EeEFSRWhNVUZSWVhHQmthR3h3ZEhoOCIsIm9yaWdpbiI6Imh0dHBzOi8vZXhhbXBsZS5jb20iLCJjcm9zc09yaWdpbiI6ZmFsc2V9","attestationObject":"o2NmbXRmcGFja2VkZ2F0dFN0bXSiY2FsZydjc2lnWEDLDd3aYUipvyADlUd1O33eXQuNu7xDYudTKF8_-55pUfaNVXFoaKnv8Ky-K8H0FB49RIO4sBZbR-byoURjmmMAaGF1dGhEYXRhWHGjeab27q-5pV43jBGANOJ1Hmgvq58tMKsT0hJVhs4ZR00AAAAAAAAAAAAAAAAAAAAAAAAAAAAQihkhGPJ5v76K3sZFtcSO8KQBAQMnIAYhWCBaf64cjmNmoW6btQeTCxvBa7XfxVsnaHisb5-QAouOGQ","transports":["internal","hybrid"]}}'

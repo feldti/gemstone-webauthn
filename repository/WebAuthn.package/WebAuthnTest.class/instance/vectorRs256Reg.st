@@ -1,0 +1,5 @@
+vectors
+vectorRs256Reg
+	"Generated with Python cryptography: rpId example.com, origin https://example.com."
+
+	^'{"id":"HofyVfnTA_O71cd3FAM_Ag","rawId":"HofyVfnTA_O71cd3FAM_Ag","type":"public-key","authenticatorAttachment":"platform","clientExtensionResults":{},"response":{"clientDataJSON":"eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiQUFFQ0F3UUZCZ2NJQ1FvTERBME9EeEFSRWhNVUZSWVhHQmthR3h3ZEhoOCIsIm9yaWdpbiI6Imh0dHBzOi8vZXhhbXBsZS5jb20iLCJjcm9zc09yaWdpbiI6ZmFsc2V9","attestationObject":"o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YVkBV6N5pvbur7mlXjeMEYA04nUeaC-rny0wqxPSElWGzhlHTQAAAAAAAAAAAAAAAAAAAAAAAAAAABAeh_JV-dMD87vVx3cUAz8CpAEDAzkBACBZAQDCwlLXYRBihjASpiTNGgVkLKpZG12nq3soDEPI_LhDGccVL106ELS3BPyhY2ZqT2pgjtEfFO0qJEg0KvS5s3iRmVv07RvP4lTT1TkUYcziYvfSkl9VSGieVO_esdAC3sua2dAymIT_M9im0LCFc6dGrLR6VQZ4Anm4MFJMLGsXrMaQAU86q97SRUpbwGMrM_JB3FHMHGvrTb-iosixsvt3afcxZSxvZfqIacOJaEQYJ_NWz1vaFhqctc3gZMhFgYg31GDZouquYX_qyLQ2CZgyoLfqQCxZChvT8PVzr-Rax37dU8XmP_64HfE6ihYWSkzU0-p7K5b5Zmsu-GuXvYN9IUMBAAE","transports":["internal","hybrid"]}}'
